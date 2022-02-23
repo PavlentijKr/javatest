@@ -9,7 +9,7 @@ public class RpaplatformApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(RpaplatformApplication.class, args);
 
-		System.out.println("hello! 1");
+		System.out.println("hello! 2");
 	}
 
 }
