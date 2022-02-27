@@ -4,7 +4,7 @@ pipeline {
 
     environment {
         imageName = "rpabackend"
-        registryCredentials = "admin"
+        registryCredentials = "admin:admin123"
         registry = "nexus02.eastus.cloudapp.azure.com:8081/repository/docker-hosted/"
         dockerImage = ''
     }
